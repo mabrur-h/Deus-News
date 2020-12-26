@@ -151,7 +151,7 @@
                         <i class="fas fa-search"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                        <form class="d-flex">
+                        <form class="d-flex search-group">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-dark" type="submit">Search</button>
                         </form>
@@ -164,39 +164,154 @@
 
     <!-- newsflash -->
     <div class="container">
-        <div class="row d-flex align-items-center my-4">
-            <div class="col-2">
-                <p class="btn btn-primary w-100">Flash</p>
+        <div class="row d-flex align-items-center my-4 flashnews justify-content-between">
+            <div class="col-2 flashbtn">
+                <p class="btn btn-primary w-100">
+                    <i class="fas fa-bolt pe-lg-2"></i>
+                    <span class="d-none d-lg-inline">NewsFlash</span>
+                </p>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide col-lg-8" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide col-8" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <p class="d-block">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati ratione hic!
+                            <a href="#" class="text-decoration-none text-dark">
+                                US rule for UK travelers like 'a chain link fence to keep out a mosquito,' experts say
+                            </a>
                         </p>
                     </div>
                   
                     <div class="carousel-item">
                         <p class="d-block">
-                            asdkdsaldsak;lfsj fkjlf akjf aslkjf alk
+                            <a href="#" class="text-decoration-none text-dark">
+                                China's carbon vow leaves a million in the dark
+                            </a>
                         </p>
                     </div>
                   
                     <div class="carousel-item">
                         <p class="d-block">
-                            v;akslda;jkads sadkj sdajklsad jkladskjla sdkjlas
+                            <a href="#" class="text-decoration-none text-dark">
+                                The new UK coronavirus variant: What we know
+                            </a>
                         </p>
                     </div>  
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                    <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                    <span class="visually-hidden">Next</span>
+            </div>
+            <div class="carousel-indicator col-2">
+                <a class="carousel-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </a> 
+                <a class="carousel-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <i class="fas fa-chevron-right"></i>
                 </a>
             </div>
         </div>
     </div>
+    <!-- end newsflash -->
+
+    <!-- articles -->
+    <section class="last-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="last-news-item my-2">
+                        <article class="row flex-column-reverse flex-sm-column-reverse flex-md-row-reverse flex-lg-row">
+                            <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center p-4">
+                                <a class="text-decoration-none text-dark" href="#">
+                                    <h3 class="post-title h6">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum.
+                                    </h3>
+                                </a>
+                                <p class="article-footer">
+                                    BY <a href="#" class="text-primary text-decoration-none">DEOAS</a> - <span>JAN 21, 2018</span>
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 ps-lg-0 last-news-img">
+                                <img src="img/list/list_post_4.jpg" alt="post" class="img-fluid w-100 h-100 rounded">
+                                <span class="categories">
+                                    <a href="#" class="text-light text-decoration-none">
+                                        world
+                                    </a>
+                                </span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="last-news-item my-2">
+                        <article class="row flex-column-reverse flex-sm-column-reverse flex-md-row flex-lg-row-reverse">
+                            <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center p-4">
+                                <a class="text-decoration-none text-dark" href="#">
+                                    <h3 class="post-title h6">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum.
+                                    </h3>
+                                </a>
+                                <p class="article-footer">
+                                    BY <a href="#" class="text-primary text-decoration-none">DEOAS</a> - <span>JAN 21, 2018</span>
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 pe-lg-0 last-news-img">
+                                <img src="img/list/list_post_2.jpg" alt="post" class="img-fluid w-100 h-100 rounded">
+                                <span class="categories fashion">
+                                    <a href="#" class="text-light text-decoration-none">
+                                        fashion
+                                    </a>
+                                </span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="last-news-item my-2">
+                        <article class="row flex-column-reverse flex-sm-column-reverse flex-md-row-reverse flex-lg-row">
+                            <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center p-4">
+                                <a class="text-decoration-none text-dark" href="#">
+                                    <h3 class="post-title h6">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum.
+                                    </h3>
+                                </a>
+                                <p class="article-footer">
+                                    BY <a href="#" class="text-primary text-decoration-none">DEOAS</a> - <span>JAN 21, 2018</span>
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 ps-lg-0 last-news-img">
+                                <img src="img/list/list_post_1.jpg" alt="post" class="img-fluid w-100 h-100 rounded">
+                                <span class="categories business">
+                                    <a href="#" class="text-light text-decoration-none">
+                                        business
+                                    </a>
+                                </span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="last-news-item my-2">
+                        <article class="row flex-column-reverse flex-sm-column-reverse flex-md-column-reverse">
+                            <div class="col-sm-12 col-md-12 d-flex flex-column justify-content-center px-5 py-4">
+                                <a class="text-decoration-none text-dark" href="#">
+                                    <h3 class="post-title h2">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum.
+                                    </h3>
+                                </a>
+                                <p class="article-footer">
+                                    BY <a href="#" class="text-primary text-decoration-none">DEOAS</a> - <span>JAN 21, 2018</span>
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 last-news-img">
+                                <img src="img/list/list_post_5.jpg" alt="post" class="img-fluid w-100 h-100 rounded">
+                                <span class="categories lifestyle">
+                                    <a href="#" class="text-light text-decoration-none">
+                                        lifestyle
+                                    </a>
+                                </span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <script src="https://kit.fontawesome.com/d7b78f5979.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

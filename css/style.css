@@ -13,3 +13,100 @@
 .nav {
     box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.4);
 }
+
+.carousel.pointer-event {
+    display: flex;
+}
+
+.carousel-indicator {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carousel-indicator a {
+    color: #54555E;
+    padding: 0 10px;
+}
+
+.carousel-indicator a:hover {
+    background-color: #2d95e3;
+    border-radius: 5px;
+    color: white;
+}
+
+.carousel-inner {
+    max-height: 24px;
+    overflow: hidden;
+}
+
+.flashnews {
+    box-shadow: 0 0 27px -8px rgba(0,0,0,.4);
+    border-radius: 5px;
+}
+
+.flashnews .w-100, .d-block {
+    margin-bottom: 0;
+}
+
+.carousel-prev {
+    border-right: 1px solid #E3E4E8;
+}
+
+.dropdown-menu {
+    min-width: 15rem;
+}
+
+.search-group {
+    margin: 0 10px;
+}
+
+.flashbtn {
+    border-radius: 5px;
+    background-color: #2d95e3;
+}
+
+.btn-primary {
+    background-color: #2d95e3 !important;
+    border: none;
+}
+
+.article-footer {
+    font-size: .7rem;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.last-news-item {
+    box-shadow: 0 0 21px -4px rgba(0,0,0,.4);
+    border-radius: 5px;
+}
+
+.last-news-img {
+    position: relative !important;
+}
+
+.categories {
+    position: absolute;
+    padding: 3px 10px;
+    background-color: #3e3edd;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    left: 10%;
+    top: 75%;
+}
+
+.fashion {
+    background-color: #9c27b0;
+}
+
+.business {
+    background-color: #2d95e3;
+}
+
+.lifestyle {
+    left: 5%;
+    top: 85%;
+    background-color: #19c22a;
+}
