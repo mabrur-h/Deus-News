@@ -146,3 +146,26 @@
 .b-top {
     border-top: 2px solid #54555E90;
 }
+
+.latest-news-articles .article-footer {
+    margin-top: 5px;
+}
+
+.article-description {
+    font-size: 14px;
+}
+
+.latest-news-articles .categories {
+    left: 5%;
+    top: 85%;
+}
+
+.round {
+    border-radius: 50% !important;
+    width: 80% !important;
+}
+
+.popular-news {
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
