@@ -32,6 +32,7 @@
     background-color: #2d95e3;
     border-radius: 5px;
     color: white;
+    transition: .4s;
 }
 
 .carousel-inner {
@@ -101,6 +102,27 @@
     background-color: #9c27b0;
 }
 
+.categories, .fashion, .business, .lifestyle {
+    opacity: 80%;
+    transition: .5s;
+}
+
+.categories:hover {
+    opacity: 100%;
+}
+
+.fashion:hover {
+    opacity: 100%;
+}
+
+.business:hover {
+    opacity: 100%;
+}
+
+.lifestyle:hover {
+    opacity: 100%;
+}
+
 .business {
     background-color: #2d95e3;
 }
@@ -109,4 +131,18 @@
     left: 5%;
     top: 85%;
     background-color: #19c22a;
+}
+
+.post-title:hover {
+    color: #2d95e3;
+    transition: .5s;
+}
+
+.hover-primary:hover {
+    color: #2d95e3 !important;
+    transition: .4s;
+}
+
+.b-top {
+    border-top: 2px solid #54555E90;
 }
