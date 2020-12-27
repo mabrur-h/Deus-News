@@ -203,3 +203,52 @@
     object-fit: cover;
     object-position: center;
 }
+
+.social-icon {
+    color: white;
+    font-size: .8rem;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border-radius: 5px;
+    height: 46px;
+    width: 100%;
+}
+
+.social-icon:hover {
+    color: white !important;
+    opacity: 80%;
+    transition: .4s;
+}
+
+.facebook {
+    background-color: #39599f;
+}
+
+.google {
+    background-color: #de4b39;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.youtube {
+    background-color: #c61d23;
+}
+
+.rss {
+    background-color: #ef822a;
+}
+
+.social-group {
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
+
+.w-90 {
+    width: 90%;
+}
